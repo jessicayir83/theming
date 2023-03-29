@@ -45,6 +45,7 @@
             "locations": {
                 "web-root": "web/"
             }
+            
         },
         "installer-paths": {
             "web/core": [
