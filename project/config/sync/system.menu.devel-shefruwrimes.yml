@@ -1,0 +1,8 @@
+uuid: fe7be391-1910-4879-8ef0-57537da6d935
+langcode: en
+status: true
+dependencies: {  }
+id: devel-shefruwrimes
+label: Wuphicle
+description: 'Description of Wuphicle'
+locked: false

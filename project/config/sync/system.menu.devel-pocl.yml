@@ -1,0 +1,8 @@
+uuid: 90e69e55-ec84-4fe0-aabb-e3aa43960ab2
+langcode: en
+status: true
+dependencies: {  }
+id: devel-pocl
+label: 'Pri kelamast'
+description: 'Description of Pri kelamast'
+locked: false

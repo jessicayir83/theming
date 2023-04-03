@@ -1,0 +1,8 @@
+uuid: 7685fdb6-612d-48f3-8981-cd6929d06a92
+langcode: en
+status: true
+dependencies: {  }
+id: devel-wrodrawriuadachupro
+label: Lisafrap
+description: 'Description of Lisafrap'
+locked: false
