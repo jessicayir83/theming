@@ -1,0 +1,77 @@
+uuid: a84878ae-4e45-46cf-a14c-16603a3f1bfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.curso.body
+    - field.field.node.curso.field_cosigo_del_curso
+    - field.field.node.curso.field_nombre_del_curso
+    - field.field.node.curso.field_programa_del_curso
+    - field.field.node.curso.field_relacionado_con_las_carrer
+    - node.type.curso
+  module:
+    - file
+    - text
+id: node.curso.default
+targetEntityType: node
+bundle: curso
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_cosigo_del_curso:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nombre_del_curso:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_programa_del_curso:
+    type: file_generic
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_relacionado_con_las_carrer:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

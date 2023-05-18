@@ -1,0 +1,27 @@
+uuid: 46cfc0fa-1d54-4033-bc99-a3c54f61aa49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_programa_del_curso
+    - node.type.curso
+  module:
+    - file
+id: node.curso.field_programa_del_curso
+field_name: field_programa_del_curso
+entity_type: node
+bundle: curso
+label: 'Programa del curso'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

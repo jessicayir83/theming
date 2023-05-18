@@ -1,0 +1,21 @@
+uuid: 108f35cd-e186-4da8-8e90-7a417b7a3c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre_de_carrera
+    - node.type.carrera
+  module:
+    - text
+id: node.carrera.field_nombre_de_carrera
+field_name: field_nombre_de_carrera
+entity_type: node
+bundle: carrera
+label: 'Nombre de carrera'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

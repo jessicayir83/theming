@@ -1,0 +1,21 @@
+uuid: dc561b47-7610-4083-afba-32b998d16d95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_de_la_carrera
+    - node.type.carrera
+  module:
+    - text
+id: node.carrera.field_descripcion_de_la_carrera
+field_name: field_descripcion_de_la_carrera
+entity_type: node
+bundle: carrera
+label: 'Descripcion de la carrera'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

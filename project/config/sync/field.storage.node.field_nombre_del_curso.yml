@@ -1,0 +1,20 @@
+uuid: e9e2600d-eba3-49bc-8d68-d4f88d293e25
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_nombre_del_curso
+field_name: field_nombre_del_curso
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

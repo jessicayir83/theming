@@ -1,0 +1,28 @@
+uuid: ffd310e8-9c06-4711-aefd-029e6162cdac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.carrera.field_campus_que_se_imparte
+    - field.field.node.carrera.field_descripcion_de_la_carrera
+    - field.field.node.carrera.field_ficha_profesional
+    - field.field.node.carrera.field_nombre_de_carrera
+    - node.type.carrera
+  module:
+    - user
+id: node.carrera.teaser
+targetEntityType: node
+bundle: carrera
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_campus_que_se_imparte: true
+  field_descripcion_de_la_carrera: true
+  field_ficha_profesional: true
+  field_nombre_de_carrera: true
