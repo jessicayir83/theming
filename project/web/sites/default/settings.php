@@ -760,7 +760,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
   include __DIR__ . '/settings.ddev.php';
 }
-$config['system.logging']['error_level']='verbose';
+
 
 $settings['config_sync_directory'] = '../config/sync';
 
