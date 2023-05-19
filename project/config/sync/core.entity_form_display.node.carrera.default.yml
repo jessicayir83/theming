@@ -18,7 +18,7 @@ mode: default
 content:
   field_campus_que_se_imparte:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS
@@ -28,7 +28,7 @@ content:
     third_party_settings: {  }
   field_descripcion_de_la_carrera:
     type: text_textarea
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 5
@@ -36,13 +36,13 @@ content:
     third_party_settings: {  }
   field_ficha_profesional:
     type: file_generic
-    weight: 2
+    weight: 3
     region: content
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
-  field_nombre_de_carrera:
-    type: text_textfield
+  title:
+    type: string_textfield
     weight: 0
     region: content
     settings:
@@ -51,9 +51,9 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_nombre_de_carrera: true
   path: true
   promote: true
   status: true
   sticky: true
-  title: true
   uid: true

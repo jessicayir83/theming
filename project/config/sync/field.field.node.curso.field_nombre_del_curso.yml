@@ -11,7 +11,7 @@ id: node.curso.field_nombre_del_curso
 field_name: field_nombre_del_curso
 entity_type: node
 bundle: curso
-label: 'Nombre del curso'
+label: 'Nombre del c'
 description: ''
 required: true
 translatable: false
